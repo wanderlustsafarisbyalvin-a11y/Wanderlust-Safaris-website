@@ -1,10 +1,16 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wanderlust Safaris by Alvin</title><script src="https://cdn.tailwindcss.com"></script><style>
+<title>Wanderlust Safaris by Alvin</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
 body { background:#000; }
 
+/* DESTINATION SCROLL */
 .scroll-x {
   display:flex;
   overflow-x:auto;
@@ -26,103 +32,211 @@ body { background:#000; }
   width:100%;
   height:200px;
   object-fit:cover;
-  border-radius:10px;
+  border-radius:12px;
 }
 
 /* SLIDERS */
-.slider { overflow:hidden; }
-.slides { display:flex; transition:0.6s ease; }
-.slide { min-width:100%; }
+.slider {
+  overflow:hidden;
+  width:100%;
+}
 
-/* RECTANGLE PICTORIAL */
-.small-slider { overflow:hidden; max-width:1000px; margin:auto; }
-.small-slides { display:flex; transition:0.6s ease; }
-.small-slide { min-width:100%; }
-.small-slide img {
+.slides {
+  display:flex;
+  transition:0.6s ease;
+}
+
+.slide {
+  min-width:100%;
+}
+
+/* PICTORIAL */
+.pic-img {
   width:100%;
   height:320px;
   object-fit:cover;
-  border-radius:8px;
+  border-radius:10px;
 }
+</style>
+</head>
 
-</style></head><body class="text-white"><!-- HEADER --><header class="fixed top-0 w-full bg-black/80 z-50">
-<div class="max-w-6xl mx-auto flex justify-between p-4">
-<img src="file_0000000003a471f589f68d29a759718f~2.png" class="h-14">
-<a href="https://wa.me/254707445068" class="bg-green-500 px-4 py-2 rounded-lg">WhatsApp</a>
+<body class="text-white">
+
+<!-- HEADER -->
+<header class="fixed top-0 w-full bg-black/90 z-50">
+  <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+    <img src="file_0000000003a471f589f68d29a759718f~2.png" class="h-14">
+    <a href="https://wa.me/254707445068" class="bg-green-500 px-4 py-2 rounded-lg font-semibold">
+      WhatsApp
+    </a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="h-screen flex items-center justify-center relative">
+  <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e" class="absolute w-full h-full object-cover">
+  <div class="absolute inset-0 bg-black/70"></div>
+
+  <div class="relative text-center px-4">
+    <h1 class="text-5xl font-bold text-yellow-400">Wanderlust Safaris</h1>
+    <p class="text-purple-400">by Alvin</p>
+
+    <p class="mt-4 text-gray-300">
+      Luxury Safaris • Coast Holidays • Helicopter Tours • Experiences
+    </p>
+
+    <p class="text-green-400 mt-2">
+      Naivasha, Nakuru Kenya
+    </p>
+
+    <a href="https://wa.me/254707445068"
+       class="mt-6 inline-block bg-green-500 px-6 py-3 rounded-xl font-semibold">
+       Book Your Trip
+    </a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="py-16 px-6 text-center">
+  <h2 class="text-4xl text-yellow-400 mb-6">About Us</h2>
+
+  <p class="max-w-3xl mx-auto text-gray-300">
+    Wanderlust Safaris by Alvin is a premium travel and tour company specializing in curated safari experiences, luxury holidays, coastal getaways, helicopter tours, and cultural adventures across Kenya and East Africa.
+  </p>
+</section>
+
+<!-- DESTINATIONS -->
+<section class="py-16 px-6 bg-gray-900">
+<h2 class="text-4xl text-center text-purple-400 mb-10">Top Experiences</h2>
+
+<div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+
+<div class="bg-black rounded-xl overflow-hidden">
+<img src="https://images.unsplash.com/photo-1547970810-dc1eac37d174" class="h-48 w-full object-cover">
+<div class="p-4">
+<h3 class="text-yellow-400 font-bold">Maasai Mara Safari</h3>
+<p>Wildlife & Big Five</p>
 </div>
-</header><!-- HERO --><section class="h-screen flex items-center justify-center relative">
-<img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e" class="absolute w-full h-full object-cover">
-<div class="absolute inset-0 bg-black/70"></div>
-<div class="relative text-center px-4">
-<h1 class="text-5xl font-bold text-yellow-400">Wanderlust Safaris</h1>
-<p class="text-purple-400">by Alvin</p>
-<p class="mt-4 text-gray-300">Luxury Safaris • Coast Holidays • Experiences</p>
-<p class="mt-2 text-green-400">Naivasha, Nakuru Kenya</p>
-<a href="https://wa.me/254707445068" class="mt-6 inline-block bg-green-500 px-6 py-3 rounded-xl">Book Now</a>
 </div>
-</section><!-- ABOUT --><section class="py-16 px-6 text-center">
-<h2 class="text-4xl text-purple-400 mb-6">About Us</h2>
-<p class="max-w-3xl mx-auto text-gray-300">
-Wanderlust Safaris by Alvin is a travel and tours company that specializes in creating unforgettable safari experiences across Kenya and East Africa. 
-We design personalized trips including wildlife safaris, beach holidays, helicopter tours, and cultural experiences that combine comfort, adventure, and luxury.
-</p>
-</section><!-- DESTINATIONS --><section class="py-16 px-6">
-<h2 class="text-4xl text-center text-purple-400 mb-10">Explore Destinations</h2><h3 class="text-yellow-400 mb-2">Coast</h3>
-<div class="scroll-x">
-<div class="scroll-item"><img src="bf461e22a944a4a7b8b15014c18f9f2d.jpg"><p>Diani Beach</p></div>
-<div class="scroll-item"><img src="409d595a91a72aac0ef7407b1446eedf.jpg"><p>Watamu</p></div>
-</div><h3 class="text-yellow-400 mt-6 mb-2">Maasai Mara</h3>
-<div class="scroll-x">
-<div class="scroll-item"><img src="ae20e426bda8ad11b4b6a228838398f9.jpg"><p>Game Drives</p></div>
-<div class="scroll-item"><img src="db3f438bbcbf4429040aa0fbed9ccc67.jpg"><p>Wildlife Safari</p></div>
-</div><h3 class="text-yellow-400 mt-6 mb-2">Naivasha & Nakuru</h3>
-<div class="scroll-x">
-<div class="scroll-item"><img src="1a95ed1e21e8311585e82292635a419d.jpg"><p>Lake Naivasha</p></div>
-<div class="scroll-item"><img src="0bed528e1429126944de866c5adc401e.jpg"><p>Lake Nakuru</p></div>
+
+<div class="bg-black rounded-xl overflow-hidden">
+<img src="https://images.unsplash.com/photo-1593032465171-b1c6c1b8b7c2" class="h-48 w-full object-cover">
+<div class="p-4">
+<h3 class="text-yellow-400 font-bold">Maasai Cultural Experience</h3>
+<p>Traditions & Jumping</p>
 </div>
-</section><!-- TESTIMONIALS --><section class="py-20 px-6 bg-black">
-<h2 class="text-4xl text-center text-yellow-400 mb-8">What Our Guests Say</h2><div class="slider max-w-2xl mx-auto" id="testSlider">
+</div>
+
+<div class="bg-black rounded-xl overflow-hidden">
+<img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21" class="h-48 w-full object-cover">
+<div class="p-4">
+<h3 class="text-yellow-400 font-bold">Coast Holidays</h3>
+<p>Diani, Mombasa, Watamu</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- TESTIMONIALS SLIDER -->
+<section class="py-20 bg-black">
+<h2 class="text-4xl text-center text-yellow-400 mb-8">What Our Guests Say</h2>
+
+<div class="slider max-w-2xl mx-auto" id="testSlider">
   <div class="slides">
-    <div class="slide p-6 bg-gray-900 rounded-xl">⭐⭐⭐⭐⭐<p>“Amazing Maasai Mara experience, very professional.”</p><b>- Brian K.</b></div>
-    <div class="slide p-6 bg-gray-900 rounded-xl">⭐⭐⭐⭐⭐<p>“Diani trip was unforgettable and smooth.”</p><b>- Sharon A.</b></div>
-    <div class="slide p-6 bg-gray-900 rounded-xl">⭐⭐⭐⭐⭐<p>“Luxury safari experience beyond expectations.”</p><b>- Kevin M.</b></div>
-    <div class="slide p-6 bg-gray-900 rounded-xl">⭐⭐⭐⭐⭐<p>“Highly recommended travel agency.”</p><b>- Faith N.</b></div>
+
+    <div class="slide p-6 bg-gray-900 rounded-xl">
+      ⭐⭐⭐⭐⭐
+      <p>“Amazing Maasai Mara experience, very well organized.”</p>
+      <b>- Brian K.</b>
+    </div>
+
+    <div class="slide p-6 bg-gray-900 rounded-xl">
+      ⭐⭐⭐⭐⭐
+      <p>“Our Diani trip was smooth and unforgettable.”</p>
+      <b>- Sharon A.</b>
+    </div>
+
+    <div class="slide p-6 bg-gray-900 rounded-xl">
+      ⭐⭐⭐⭐⭐
+      <p>“Highly professional safari experience.”</p>
+      <b>- Kevin M.</b>
+    </div>
+
+    <div class="slide p-6 bg-gray-900 rounded-xl">
+      ⭐⭐⭐⭐⭐
+      <p>“Best travel agency I’ve used.”</p>
+      <b>- Faith N.</b>
+    </div>
+
   </div>
 </div>
-</section><!-- PICTORIAL (RECTANGLE AUTO SLIDER) --><section class="py-16 bg-gray-900">
-<h2 class="text-3xl text-center text-purple-400 mb-6">Moments in Pictures</h2><div class="small-slider" id="picSlider">
-  <div class="small-slides">
-    <div class="small-slide"><img src="0beb3e04fca00b01c6d5ee27858785f2.jpg"></div>
-    <div class="small-slide"><img src="0bed528e1429126944de866c5adc401e.jpg"></div>
-    <div class="small-slide"><img src="1a95ed1e21e8311585e82292635a419d.jpg"></div>
-    <div class="small-slide"><img src="bf461e22a944a4a7b8b15014c18f9f2d.jpg"></div>
-    <div class="small-slide"><img src="409d595a91a72aac0ef7407b1446eedf.jpg"></div>
-    <div class="small-slide"><img src="c83314c4431de5cdf632a96405aff22d.jpg"></div>
-    <div class="small-slide"><img src="db3f438bbcbf4429040aa0fbed9ccc67.jpg"></div>
-    <div class="small-slide"><img src="493a151be1c800cd0fda97a529b141d7.jpg"></div>
+</section>
+
+<!-- PICTORIAL SLIDER (END SECTION) -->
+<section class="py-16 bg-gray-900">
+<h2 class="text-3xl text-center text-purple-400 mb-6">Moments in Pictures</h2>
+
+<div class="slider max-w-4xl mx-auto" id="picSlider">
+  <div class="slides">
+
+    <img class="pic-img" src="0beb3e04fca00b01c6d5ee27858785f2.jpg">
+    <img class="pic-img" src="0bed528e1429126944de866c5adc401e.jpg">
+    <img class="pic-img" src="1a95ed1e21e8311585e82292635a419d.jpg">
+    <img class="pic-img" src="bf461e22a944a4a7b8b15014c18f9f2d.jpg">
+    <img class="pic-img" src="409d595a91a72aac0ef7407b1446eedf.jpg">
+    <img class="pic-img" src="c83314c4431de5cdf632a96405aff22d.jpg">
+    <img class="pic-img" src="db3f438bbcbf4429040aa0fbed9ccc67.jpg">
+    <img class="pic-img" src="493a151be1c800cd0fda97a529b141d7.jpg">
+
   </div>
 </div>
-</section><!-- CONTACT --><section class="py-20 px-6 bg-gray-900 text-center">
+</section>
+
+<!-- CONTACT -->
+<section class="py-20 px-6 text-center bg-black">
 <h2 class="text-4xl text-purple-400 mb-6">Contact Us</h2>
-<p>📞 +254 707 445 068</p>
+
+<p>📞 0707 445 068</p>
 <p>📩 wanderlustsafarisbyalvin@gmail.com</p>
-<p class="mt-2 text-green-400">Naivasha, Nakuru Kenya</p>
-<a href="https://wa.me/254707445068" class="mt-6 inline-block bg-green-500 px-6 py-3 rounded-xl">Chat on WhatsApp</a>
-</section><!-- FLOATING BUTTON --><a href="https://wa.me/254707445068" class="fixed bottom-5 right-5 bg-green-500 p-4 rounded-full shadow-lg">💬</a>
+
+<a href="https://wa.me/254707445068"
+   class="mt-6 inline-block bg-green-500 px-6 py-3 rounded-xl">
+   Chat on WhatsApp
+</a>
+</section>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/254707445068"
+   class="fixed bottom-5 right-5 bg-green-500 p-4 rounded-full shadow-lg">
+💬
+</a>
 
 <footer class="text-center py-6 text-gray-400">
-<p>Wanderlust Safaris by Alvin</p>
-</footer><script>
-// testimonials slider
-let t=0;
-const ts=document.querySelector('#testSlider .slides');
-const tlen=ts.children.length;
-setInterval(()=>{t=(t+1)%tlen; ts.style.transform=`translateX(-${t*100}%)`;},3000);
+Wanderlust Safaris by Alvin
+</footer>
 
-// pictorial slider
-let p=0;
-const ps=document.querySelector('#picSlider .small-slides');
-const plen=ps.children.length;
-setInterval(()=>{p=(p+1)%plen; ps.style.transform=`translateX(-${p*100}%)`;},3500);
-</script></body>
-  </html>
+<script>
+// TESTIMONIAL SLIDER
+let t = 0;
+const tslides = document.querySelector('#testSlider .slides');
+const tcount = tslides.children.length;
+
+setInterval(() => {
+  t = (t + 1) % tcount;
+  tslides.style.transform = `translateX(-${t * 100}%)`;
+}, 3000);
+
+// PICTORIAL SLIDER
+let p = 0;
+const pslides = document.querySelector('#picSlider .slides');
+const pcount = pslides.children.length;
+
+setInterval(() => {
+  p = (p + 1) % pcount;
+  pslides.style.transform = `translateX(-${p * 100}%)`;
+}, 3000);
+</script>
+
+</body>
+</html>
