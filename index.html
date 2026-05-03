@@ -2,101 +2,119 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wanderlust Safaris by Alvin</title><!-- SEO BOOST --><meta name="description" content="Wanderlust Safaris by Alvin offers Maasai Mara safaris, Naivasha tours, Diani beach holidays and luxury travel experiences in Kenya.">
-<meta name="keywords" content="Naivasha tours, Maasai Mara safari, Kenya safaris, Diani holidays, travel Kenya">
-<meta name="author" content="Wanderlust Safaris by Alvin"><script src="https://cdn.tailwindcss.com"></script><style>
-body { background-color: #000; }
-.slider { overflow: hidden; }
-.slides { display: flex; transition: 0.5s; }
-.slide { min-width: 100%; }
-.lightbox { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.9); justify-content:center; align-items:center; z-index:1000; }
-.lightbox img { max-width:90%; max-height:90%; }
-</style></head><body class="text-white"><!-- HEADER --><header class="fixed top-0 w-full bg-black/90 z-50">
+<title>Wanderlust Safaris by Alvin</title><script src="https://cdn.tailwindcss.com"></script><style>
+body { background:#000; }
+
+.scroll-x {
+  display:flex;
+  overflow-x:auto;
+  gap:16px;
+  padding-bottom:10px;
+  scroll-snap-type:x mandatory;
+}
+
+.scroll-x::-webkit-scrollbar { display:none; }
+
+.scroll-item {
+  min-width:280px;
+  scroll-snap-align:center;
+  background:#111;
+  border-radius:14px;
+  padding:10px;
+}
+
+.scroll-x img {
+  width:100%;
+  height:200px;
+  object-fit:cover;
+  border-radius:12px;
+}
+
+.slider { overflow:hidden; }
+.slides { display:flex; transition:0.5s; }
+.slide { min-width:100%; }
+</style></head><body class="text-white"><!-- HEADER --><header class="fixed top-0 w-full bg-black/80 z-50">
 <div class="max-w-6xl mx-auto flex justify-between p-4">
-<img src="file_0000000003a471f589f68d29a759718f~2.png" class="h-16">
-<a href="https://wa.me/254707445068?text=Hello%20Wanderlust%20Safaris" class="bg-green-500 px-4 py-2 rounded">WhatsApp</a>
+<img src="file_0000000003a471f589f68d29a759718f~2.png" class="h-14">
+<a href="https://wa.me/254707445068" class="bg-green-500 px-4 py-2 rounded-lg">WhatsApp</a>
 </div>
 </header><!-- HERO --><section class="h-screen flex items-center justify-center relative">
 <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e" class="absolute w-full h-full object-cover">
 <div class="absolute inset-0 bg-black/70"></div>
-<div class="relative text-center">
-<h1 class="text-5xl text-yellow-400 font-bold">Wanderlust Safaris</h1>
+<div class="relative text-center px-4">
+<h1 class="text-5xl font-bold text-yellow-400">Wanderlust Safaris</h1>
 <p class="text-purple-400">by Alvin</p>
-<p class="mt-4">Luxury Safaris • Coast Holidays • Experiences</p>
-<a href="https://wa.me/254707445068" class="bg-green-500 px-6 py-3 mt-6 inline-block">Book Now</a>
+<p class="mt-4 text-gray-300">Luxury Safaris • Coast Holidays • Experiences</p>
+<a href="https://wa.me/254707445068" class="mt-6 inline-block bg-green-500 px-6 py-3 rounded-xl">Book Now</a>
 </div>
-</section><!-- PACKAGES --><section class="py-20 text-center">
-<h2 class="text-4xl text-yellow-400 mb-8">Popular Packages</h2>
-<div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto"><div class="bg-gray-900 p-6 rounded-xl">
-<h3 class="text-xl text-purple-400">Maasai Mara Safari</h3>
-<p>3 Days / 2 Nights</p>
-<p class="text-green-400 mt-2">From Ksh 25,000</p>
-</div><div class="bg-gray-900 p-6 rounded-xl">
-<h3 class="text-xl text-purple-400">Naivasha Getaway</h3>
-<p>1 Day Trip</p>
-<p class="text-green-400 mt-2">From Ksh 5,000</p>
-</div><div class="bg-gray-900 p-6 rounded-xl">
-<h3 class="text-xl text-purple-400">Diani Beach Holiday</h3>
-<p>3 Days / 2 Nights</p>
-<p class="text-green-400 mt-2">From Ksh 18,000</p>
+</section><!-- DESTINATIONS --><section class="py-16 px-6">
+<h2 class="text-4xl text-center text-purple-400 mb-10">Explore Destinations</h2><h3 class="text-yellow-400 mb-2">Coast</h3>
+<div class="scroll-x">
+<div class="scroll-item">
+<img src="bf461e22a944a4a7b8b15014c18f9f2d.jpg">
+<p class="mt-2 text-gray-300">Diani Beach</p>
+</div>
+<div class="scroll-item">
+<img src="409d595a91a72aac0ef7407b1446eedf.jpg">
+<p class="mt-2 text-gray-300">Watamu Experience</p>
+</div>
+</div><h3 class="text-yellow-400 mt-6 mb-2">Maasai Mara</h3>
+<div class="scroll-x">
+<div class="scroll-item">
+<img src="ae20e426bda8ad11b4b6a228838398f9.jpg">
+<p class="mt-2 text-gray-300">Game Drives</p>
+</div>
+<div class="scroll-item">
+<img src="db3f438bbcbf4429040aa0fbed9ccc67.jpg">
+<p class="mt-2 text-gray-300">Wildlife Safari</p>
+</div>
+</div><h3 class="text-yellow-400 mt-6 mb-2">Naivasha & Nakuru</h3>
+<div class="scroll-x">
+<div class="scroll-item">
+<img src="1a95ed1e21e8311585e82292635a419d.jpg">
+<p class="mt-2 text-gray-300">Lake Naivasha</p>
+</div>
+<div class="scroll-item">
+<img src="0bed528e1429126944de866c5adc401e.jpg">
+<p class="mt-2 text-gray-300">Lake Nakuru Flamingos</p>
+</div>
+</div><h3 class="text-yellow-400 mt-6 mb-2">Experiences</h3>
+<div class="scroll-x">
+<div class="scroll-item">
+<img src="0beb3e04fca00b01c6d5ee27858785f2.jpg">
+<p class="mt-2 text-gray-300">Helicopter Tours</p>
+</div>
+<div class="scroll-item">
+<img src="c83314c4431de5cdf632a96405aff22d.jpg">
+<p class="mt-2 text-gray-300">Land Cruiser Safaris</p>
+</div>
+</div>
+</section><!-- TESTIMONIALS (MANUAL SLIDE) --><section class="py-20 px-6 bg-black">
+<h2 class="text-4xl text-center text-yellow-400 mb-8">What Our Guests Say</h2><div class="scroll-x max-w-6xl mx-auto"><div class="scroll-item">
+<p>⭐⭐⭐⭐⭐</p>
+<p class="text-gray-300 mt-2">“The Maasai Mara trip was beyond expectations. Everything was well organized and luxurious.”</p>
+<p class="mt-3 text-purple-400 font-bold">— Brian K.</p>
+</div><div class="scroll-item">
+<p>⭐⭐⭐⭐⭐</p>
+<p class="text-gray-300 mt-2">“Our Diani beach holiday was smooth, peaceful and unforgettable.”</p>
+<p class="mt-3 text-purple-400 font-bold">— Sharon A.</p>
+</div><div class="scroll-item">
+<p>⭐⭐⭐⭐⭐</p>
+<p class="text-gray-300 mt-2">“Very professional team. The safari experience felt premium and safe.”</p>
+<p class="mt-3 text-purple-400 font-bold">— Kevin M.</p>
+</div><div class="scroll-item">
+<p>⭐⭐⭐⭐⭐</p>
+<p class="text-gray-300 mt-2">“Best travel agency I have used. Highly recommend Wanderlust Safaris.”</p>
+<p class="mt-3 text-purple-400 font-bold">— Faith N.</p>
 </div></div>
-</section><!-- GALLERY --><section class="py-16 px-6 bg-gray-900">
-<h2 class="text-3xl text-center text-purple-400 mb-8">Gallery</h2>
-<div class="grid md:grid-cols-3 gap-4">
-<img onclick="openImg(this.src)" src="0beb3e04fca00b01c6d5ee27858785f2.jpg">
-<img onclick="openImg(this.src)" src="0bed528e1429126944de866c5adc401e.jpg">
-<img onclick="openImg(this.src)" src="1a95ed1e21e8311585e82292635a419d.jpg">
-<img onclick="openImg(this.src)" src="bf461e22a944a4a7b8b15014c18f9f2d.jpg">
-<img onclick="openImg(this.src)" src="409d595a91a72aac0ef7407b1446eedf.jpg">
-<img onclick="openImg(this.src)" src="c83314c4431de5cdf632a96405aff22d.jpg">
-<img onclick="openImg(this.src)" src="db3f438bbcbf4429040aa0fbed9ccc67.jpg">
-<img onclick="openImg(this.src)" src="493a151be1c800cd0fda97a529b141d7.jpg">
-</div>
-</section><div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-<img id="lightbox-img">
-</div><!-- INSTAGRAM --><section class="py-20 text-center">
-<h2 class="text-3xl text-purple-400">Follow Us on Instagram</h2>
-<p class="text-gray-400">@wanderlustsafarisbyalvin</p>
-<div class="grid md:grid-cols-3 gap-4 max-w-5xl mx-auto mt-6">
-<p class="text-gray-500">Replace with your Instagram post embeds</p>
-</div>
-</section><!-- GOOGLE REVIEWS --><section class="py-20 text-center bg-gray-900">
-<h2 class="text-3xl text-yellow-400 mb-6">Google Reviews</h2>
-<p class="text-gray-300">⭐⭐⭐⭐⭐ Rated by happy travelers</p>
-<p class="text-gray-500 mt-2">(Connect Google Reviews for live ratings)</p>
-</section><!-- TESTIMONIALS --><section class="py-20 text-center">
-<h2 class="text-3xl text-yellow-400 mb-6">What Clients Say</h2>
-<div class="slider max-w-xl mx-auto">
-<div class="slides" id="slides">
-<div class="slide">⭐⭐⭐⭐⭐ Best safari ever</div>
-<div class="slide">⭐⭐⭐⭐⭐ Amazing service</div>
-<div class="slide">⭐⭐⭐⭐⭐ Highly recommend</div>
-</div>
-</div>
-</section><!-- FORM --><section class="py-20 px-6 bg-gray-900">
-<h2 class="text-3xl text-center text-purple-400 mb-6">Enquire Now</h2>
-<form onsubmit="sendWhatsApp(event)" class="grid gap-4 max-w-xl mx-auto">
-<input id="destination" placeholder="Destination" class="p-3 bg-black">
-<input id="date" type="date" class="p-3 bg-black">
-<input id="pax" placeholder="Pax" class="p-3 bg-black">
-<input id="phone" placeholder="Phone" class="p-3 bg-black">
-<input id="email" placeholder="Email" class="p-3 bg-black">
-<button class="bg-green-500 p-3">Send</button>
-</form>
-</section><!-- FLOATING BUTTON --><a href="https://wa.me/254707445068" class="fixed bottom-5 right-5 bg-green-500 p-4 rounded-full">💬</a>
+</section><!-- CONTACT --><section class="py-20 px-6 bg-gray-900 text-center">
+<h2 class="text-4xl text-purple-400 mb-6">Contact Us</h2>
+<p>📞 +254707445068</p>
+<p>📩 wanderlustsafarisbyalvin@gmail.com</p>
+<a href="https://wa.me/254707445068" class="mt-6 inline-block bg-green-500 px-6 py-3 rounded-xl">Chat on WhatsApp</a>
+</section><!-- FLOATING WHATSAPP --><a href="https://wa.me/254707445068" class="fixed bottom-5 right-5 bg-green-500 p-4 rounded-full shadow-lg">💬</a>
 
-<footer class="text-center py-6">
+<footer class="text-center py-6 text-gray-400">
 <p>Wanderlust Safaris by Alvin</p>
-</footer><script>
-let i=0; const slides=document.getElementById('slides');
-setInterval(()=>{i=(i+1)%3; slides.style.transform=`translateX(-${i*100}%)`;},3000);
-
-function openImg(src){document.getElementById('lightbox').style.display='flex';document.getElementById('lightbox-img').src=src;}
-
-function sendWhatsApp(e){
-e.preventDefault();
-let msg=`Safari Enquiry:%0A Destination:${destination.value}%0A Date:${date.value}%0A Pax:${pax.value}%0A Phone:${phone.value}%0A Email:${email.value}`;
-window.open(`https://wa.me/254707445068?text=${msg}`);
-}
-</script></body>
-</html>
+</footer></body>
+  </html>
