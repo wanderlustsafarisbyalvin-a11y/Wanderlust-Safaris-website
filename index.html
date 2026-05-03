@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- ✅ GOOGLE VERIFICATION -->
-<meta name="google-site-verification" content="<meta name="google-site-verification" nb9VvRCMe8r7iUeY6SvayhvGWxiEbicJMCsA4ViiLN4/>" />
+<meta name="google-site-verification" content="nb9VvRCMe8r7iUeY6SvayhvGWxiEbicJMCsA4ViiLN4" />
 
 <title>Wanderlust Safaris by Alvin</title>
 
@@ -66,14 +66,12 @@ Book Now
 <h2 class="text-4xl text-purple-400 mb-10">What We Do</h2>
 
 <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto text-gray-300">
-
 <div class="bg-black p-6 rounded-xl">🦁 Safari Bookings</div>
 <div class="bg-black p-6 rounded-xl">🏨 Hotels & Airbnb</div>
 <div class="bg-black p-6 rounded-xl">✈️ Airticketing</div>
 <div class="bg-black p-6 rounded-xl">🚁 Helicopter Tours</div>
 <div class="bg-black p-6 rounded-xl">🎉 Team Building</div>
 <div class="bg-black p-6 rounded-xl">🏝️ Adventure & Tours</div>
-
 </div>
 </section>
 
@@ -205,23 +203,25 @@ Wanderlust Safaris by Alvin
 </footer>
 
 <script>
-let t = 0;
-const ts = document.querySelector('#testSlider .slides');
-const tc = ts.children.length;
+// testimonials slider
+let t=0;
+const ts=document.querySelector('#testSlider .slides');
+const tc=ts.children.length;
 
-setInterval(() => {
-t = (t + 1) % tc;
-ts.style.transform = `translateX(-${t * 100}%)`;
-}, 3000);
+setInterval(()=>{
+t=(t+1)%tc;
+ts.style.transform=`translateX(-${t*100}%)`;
+},3000);
 
-let p = 0;
-const ps = document.querySelector('#picSlider .slides');
-const pc = ps.children.length;
+// pictorial slider
+let p=0;
+const ps=document.querySelector('#picSlider .slides');
+const pc=ps.children.length;
 
-setInterval(() => {
-p = (p + 1) % pc;
-ps.style.transform = `translateX(-${p * 100}%)`;
-}, 3000);
+setInterval(()=>{
+p=(p+1)%pc;
+ps.style.transform=`translateX(-${p*100}%)`;
+},3000);
 </script>
 
 </body>
