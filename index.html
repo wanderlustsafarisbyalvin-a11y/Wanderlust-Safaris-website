@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- ✅ GOOGLE VERIFICATION -->
 <meta name="google-site-verification" content="nb9VvRCMe8r7iUeY6SvayhvGWxiEbicJMCsA4ViiLN4" />
 
 <title>Wanderlust Safaris by Alvin</title>
@@ -14,17 +13,18 @@
 <style>
 body { background:#000; }
 
-/* SLIDER */
-.slider { overflow:hidden; width:100%; }
+/* SLIDERS */
+.slider { overflow:hidden; }
 .slides { display:flex; transition:0.6s ease; }
 .slide { min-width:100%; }
 
-/* PICTORIAL */
-.pic-img {
+/* FIX IMAGE QUALITY (NO CROPPING) */
+.full-img {
   width:100%;
-  height:320px;
-  object-fit:cover;
+  height:auto;
+  object-fit:contain;
   border-radius:12px;
+  background:#000;
 }
 </style>
 </head>
@@ -51,7 +51,7 @@ WhatsApp
 <p class="text-purple-400">by Alvin</p>
 
 <p class="mt-4 text-gray-300 max-w-2xl mx-auto">
-Your trusted partner for Safari Bookings, Luxury Hotels, Airbnb stays, Adventure Tours, Helicopter Rides, Airticketing, Conferences & Team Building across Kenya and East Africa.
+We specialize in safari bookings, luxury hotels, Airbnb stays, curated tours, adventure experiences, helicopter rides, airticketing, conferences and team building across Kenya and East Africa.
 </p>
 
 <a href="https://wa.me/254707445068"
@@ -71,7 +71,7 @@ Book Now
 <div class="bg-black p-6 rounded-xl">✈️ Airticketing</div>
 <div class="bg-black p-6 rounded-xl">🚁 Helicopter Tours</div>
 <div class="bg-black p-6 rounded-xl">🎉 Team Building</div>
-<div class="bg-black p-6 rounded-xl">🏝️ Adventure & Tours</div>
+<div class="bg-black p-6 rounded-xl">🏝️ Tours & Adventures</div>
 </div>
 </section>
 
@@ -81,52 +81,34 @@ Book Now
 
 <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
 
-<div class="bg-black rounded-xl overflow-hidden">
-<img src="ae20e426bda8ad11b4b6a228838398f9.jpg" class="h-48 w-full object-cover">
-<div class="p-4">
-<h3 class="text-yellow-400 font-bold">Maasai Mara Safari</h3>
-<p>Big Five Wildlife Experience</p>
-</div>
+<div class="bg-black p-4 rounded-xl">
+<img src="ae20e426bda8ad11b4b6a228838398f9.jpg" class="full-img">
+<p class="mt-3 text-yellow-400 font-bold">Maasai Mara Safari</p>
 </div>
 
-<div class="bg-black rounded-xl overflow-hidden">
-<img src="e3ae4b480fa38a991efab5aa7d30acfb.jpg" class="h-48 w-full object-cover">
-<div class="p-4">
-<h3 class="text-yellow-400 font-bold">Maasai Cultural Jump</h3>
-<p>Traditions & Culture</p>
-</div>
+<div class="bg-black p-4 rounded-xl">
+<img src="e3ae4b480fa38a991efab5aa7d30acfb.jpg" class="full-img">
+<p class="mt-3 text-yellow-400 font-bold">Maasai Cultural Jump</p>
 </div>
 
-<div class="bg-black rounded-xl overflow-hidden">
-<img src="f5756180037371dca2fcfce7e586f72c.jpg" class="h-48 w-full object-cover">
-<div class="p-4">
-<h3 class="text-yellow-400 font-bold">Safari Land Cruisers</h3>
-<p>Luxury Off-road Tours</p>
-</div>
+<div class="bg-black p-4 rounded-xl">
+<img src="f5756180037371dca2fcfce7e586f72c.jpg" class="full-img">
+<p class="mt-3 text-yellow-400 font-bold">Land Cruiser Safaris</p>
 </div>
 
-<div class="bg-black rounded-xl overflow-hidden">
-<img src="bf461e22a944a4a7b8b15014c18f9f2d.jpg" class="h-48 w-full object-cover">
-<div class="p-4">
-<h3 class="text-yellow-400 font-bold">Coast Experience</h3>
-<p>Diani & Beach Holidays</p>
-</div>
+<div class="bg-black p-4 rounded-xl">
+<img src="bf461e22a944a4a7b8b15014c18f9f2d.jpg" class="full-img">
+<p class="mt-3 text-yellow-400 font-bold">Coast Holidays</p>
 </div>
 
-<div class="bg-black rounded-xl overflow-hidden">
-<img src="1a95ed1e21e8311585e82292635a419d.jpg" class="h-48 w-full object-cover">
-<div class="p-4">
-<h3 class="text-yellow-400 font-bold">Naivasha & Nakuru</h3>
-<p>Lakes & Flamingos</p>
-</div>
+<div class="bg-black p-4 rounded-xl">
+<img src="1a95ed1e21e8311585e82292635a419d.jpg" class="full-img">
+<p class="mt-3 text-yellow-400 font-bold">Naivasha & Nakuru</p>
 </div>
 
-<div class="bg-black rounded-xl overflow-hidden">
-<img src="0bed528e1429126944de866c5adc401e.jpg" class="h-48 w-full object-cover">
-<div class="p-4">
-<h3 class="text-yellow-400 font-bold">Helicopter Tours</h3>
-<p>Aerial Luxury Experience</p>
-</div>
+<div class="bg-black p-4 rounded-xl">
+<img src="0bed528e1429126944de866c5adc401e.jpg" class="full-img">
+<p class="mt-3 text-yellow-400 font-bold">Helicopter Tours</p>
 </div>
 
 </div>
@@ -141,19 +123,19 @@ Book Now
 
 <div class="slide p-6 bg-gray-900 rounded-xl">
 ⭐⭐⭐⭐⭐
-<p>“Amazing safari experience, everything was perfectly organized.”</p>
+<p>“Everything was perfectly organized. Highly recommend.”</p>
 <b>- Brian K.</b>
 </div>
 
 <div class="slide p-6 bg-gray-900 rounded-xl">
 ⭐⭐⭐⭐⭐
-<p>“Luxury and professionalism at its best.”</p>
+<p>“Luxury experience from start to finish.”</p>
 <b>- Sharon A.</b>
 </div>
 
 <div class="slide p-6 bg-gray-900 rounded-xl">
 ⭐⭐⭐⭐⭐
-<p>“Best travel agency for safaris and holidays.”</p>
+<p>“Best safari and travel service I've used.”</p>
 <b>- Kevin M.</b>
 </div>
 
@@ -168,28 +150,42 @@ Book Now
 <div class="slider max-w-4xl mx-auto" id="picSlider">
 <div class="slides">
 
-<img class="pic-img" src="ae20e426bda8ad11b4b6a228838398f9.jpg">
-<img class="pic-img" src="f5756180037371dca2fcfce7e586f72c.jpg">
-<img class="pic-img" src="bf461e22a944a4a7b8b15014c18f9f2d.jpg">
-<img class="pic-img" src="e3ae4b480fa38a991efab5aa7d30acfb.jpg">
-<img class="pic-img" src="0bed528e1429126944de866c5adc401e.jpg">
-<img class="pic-img" src="1a95ed1e21e8311585e82292635a419d.jpg">
+<img class="full-img" src="ae20e426bda8ad11b4b6a228838398f9.jpg">
+<img class="full-img" src="f5756180037371dca2fcfce7e586f72c.jpg">
+<img class="full-img" src="bf461e22a944a4a7b8b15014c18f9f2d.jpg">
+<img class="full-img" src="e3ae4b480fa38a991efab5aa7d30acfb.jpg">
+<img class="full-img" src="0bed528e1429126944de866c5adc401e.jpg">
+<img class="full-img" src="1a95ed1e21e8311585e82292635a419d.jpg">
 
 </div>
 </div>
 </section>
 
-<!-- CONTACT -->
-<section class="py-20 text-center bg-black">
-<h2 class="text-4xl text-purple-400 mb-6">Contact Us</h2>
+<!-- ENQUIRY FORM -->
+<section class="py-20 bg-black text-center">
+<h2 class="text-4xl text-purple-400 mb-6">Make an Enquiry</h2>
 
+<form class="max-w-2xl mx-auto grid gap-4 text-black">
+
+<input type="text" placeholder="Full Name" class="p-3 rounded-lg" required>
+<input type="email" placeholder="Email Address" class="p-3 rounded-lg" required>
+<input type="tel" placeholder="Phone Number" class="p-3 rounded-lg" required>
+
+<input type="text" placeholder="Destination (e.g Maasai Mara, Diani)" class="p-3 rounded-lg" required>
+<input type="date" class="p-3 rounded-lg" required>
+<input type="number" placeholder="Number of Pax" class="p-3 rounded-lg" required>
+
+<button class="bg-green-500 text-white p-3 rounded-lg font-semibold">
+Send Enquiry
+</button>
+
+</form>
+</section>
+
+<!-- CONTACT -->
+<section class="py-16 text-center bg-gray-900">
 <p>📞 0707 445 068</p>
 <p>📩 wanderlustsafarisbyalvin@gmail.com</p>
-
-<a href="https://wa.me/254707445068"
-class="mt-6 inline-block bg-green-500 px-6 py-3 rounded-xl">
-Chat on WhatsApp
-</a>
 </section>
 
 <!-- FLOATING WHATSAPP -->
@@ -203,23 +199,19 @@ Wanderlust Safaris by Alvin
 </footer>
 
 <script>
-// testimonials slider
+// testimonial slider
 let t=0;
 const ts=document.querySelector('#testSlider .slides');
-const tc=ts.children.length;
-
 setInterval(()=>{
-t=(t+1)%tc;
+t=(t+1)%ts.children.length;
 ts.style.transform=`translateX(-${t*100}%)`;
 },3000);
 
 // pictorial slider
 let p=0;
 const ps=document.querySelector('#picSlider .slides');
-const pc=ps.children.length;
-
 setInterval(()=>{
-p=(p+1)%pc;
+p=(p+1)%ps.children.length;
 ps.style.transform=`translateX(-${p*100}%)`;
 },3000);
 </script>
