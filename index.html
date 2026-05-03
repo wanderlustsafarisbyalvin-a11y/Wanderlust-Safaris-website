@@ -3,234 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wanderlust Safaris by Alvin</title>
 
-<script src="https://cdn.tailwindcss.com"></script>
-
-<style>
-body { background:#000; }
-
-/* SLIDER */
-.slider { overflow:hidden; width:100%; }
-.slides { display:flex; transition:0.6s ease; }
-.slide { min-width:100%; }
-
-/* PICTORIAL */
-.pic-img {
-  width:100%;
-  height:320px;
-  object-fit:cover;
-  border-radius:12px;
-}
-</style>
-</head>
-
-<body class="text-white">
-
-<!-- HEADER -->
-<header class="fixed top-0 w-full bg-black/90 z-50">
-<div class="max-w-6xl mx-auto flex justify-between items-center p-4">
-<img src="file_0000000003a471f589f68d29a759718f~2.png" class="h-14">
-<a href="https://wa.me/254707445068" class="bg-green-500 px-4 py-2 rounded-lg font-semibold">
-WhatsApp
-</a>
-</div>
-</header>
-
-<!-- HERO -->
-<section class="h-screen flex items-center justify-center relative">
-<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" class="absolute w-full h-full object-cover">
-<div class="absolute inset-0 bg-black/70"></div>
-
-<div class="relative text-center px-6">
-<h1 class="text-5xl font-bold text-yellow-400">Wanderlust Safaris</h1>
-<p class="text-purple-400">by Alvin</p>
-
-<p class="mt-4 text-gray-300 max-w-2xl mx-auto">
-Your trusted partner for Safari Bookings, Luxury Hotels, Airbnb stays, Adventure Tours, Helicopter Rides, Airticketing, Conferences & Team Building across Kenya and East Africa.
-</p>
-
-<a href="https://wa.me/254707445068"
-class="mt-6 inline-block bg-green-500 px-6 py-3 rounded-xl font-semibold">
-Book Now
-</a>
-</div>
-</section>
-
-<!-- SERVICES -->
-<section class="py-16 px-6 text-center bg-gray-900">
-<h2 class="text-4xl text-purple-400 mb-10">What We Do</h2>
-
-<div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto text-gray-300">
-
-<div class="bg-black p-6 rounded-xl">🦁 Safari Bookings</div>
-<div class="bg-black p-6 rounded-xl">🏨 Hotels & Airbnb</div>
-<div class="bg-black p-6 rounded-xl">✈️ Airticketing</div>
-<div class="bg-black p-6 rounded-xl">🚁 Helicopter Tours</div>
-<div class="bg-black p-6 rounded-xl">🎉 Team Building</div>
-<div class="bg-black p-6 rounded-xl">🏝️ Adventure & Tours</div>
-
-</div>
-</section>
-
-<!-- DESTINATIONS -->
-<section class="py-16 px-6">
-<h2 class="text-4xl text-center text-yellow-400 mb-10">Top Experiences</h2>
-
-<div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-
-<div class="bg-black rounded-xl overflow-hidden">
-<img src="ae20e426bda8ad11b4b6a228838398f9.jpg" class="h-48 w-full object-cover">
-<div class="p-4">
-<h3 class="text-yellow-400 font-bold">Maasai Mara Safari</h3>
-<p>Big Five Wildlife Experience</p>
-</div>
-</div>
-
-<div class="bg-black rounded-xl overflow-hidden">
-<img src="e3ae4b480fa38a991efab5aa7d30acfb.jpg" class="h-48 w-full object-cover">
-<div class="p-4">
-<h3 class="text-yellow-400 font-bold">Maasai Cultural Jump</h3>
-<p>Traditions & Culture</p>
-</div>
-</div>
-
-<div class="bg-black rounded-xl overflow-hidden">
-<img src="f5756180037371dca2fcfce7e586f72c.jpg" class="h-48 w-full object-cover">
-<div class="p-4">
-<h3 class="text-yellow-400 font-bold">Safari Land Cruisers</h3>
-<p>Luxury Off-road Tours</p>
-</div>
-</div>
-
-<div class="bg-black rounded-xl overflow-hidden">
-<img src="bf461e22a944a4a7b8b15014c18f9f2d.jpg" class="h-48 w-full object-cover">
-<div class="p-4">
-<h3 class="text-yellow-400 font-bold">Coast Experience</h3>
-<p>Diani & Beach Holidays</p>
-</div>
-</div>
-
-<div class="bg-black rounded-xl overflow-hidden">
-<img src="1a95ed1e21e8311585e82292635a419d.jpg" class="h-48 w-full object-cover">
-<div class="p-4">
-<h3 class="text-yellow-400 font-bold">Naivasha & Nakuru</h3>
-<p>Lakes & Flamingos</p>
-</div>
-</div>
-
-<div class="bg-black rounded-xl overflow-hidden">
-<img src="0bed528e1429126944de866c5adc401e.jpg" class="h-48 w-full object-cover">
-<div class="p-4">
-<h3 class="text-yellow-400 font-bold">Helicopter Tours</h3>
-<p>Aerial Luxury Experience</p>
-</div>
-</div>
-
-</div>
-</section>
-
-<!-- TESTIMONIALS -->
-<section class="py-20 bg-black">
-<h2 class="text-4xl text-center text-yellow-400 mb-8">What Our Guests Say</h2>
-
-<div class="slider max-w-2xl mx-auto" id="testSlider">
-<div class="slides">
-
-<div class="slide p-6 bg-gray-900 rounded-xl">
-⭐⭐⭐⭐⭐
-<p>“Amazing safari experience, everything was perfectly organized.”</p>
-<b>- Brian K.</b>
-</div>
-
-<div class="slide p-6 bg-gray-900 rounded-xl">
-⭐⭐⭐⭐⭐
-<p>“Luxury and professionalism at its best.”</p>
-<b>- Sharon A.</b>
-</div>
-
-<div class="slide p-6 bg-gray-900 rounded-xl">
-⭐⭐⭐⭐⭐
-<p>“Best travel agency for safaris and holidays.”</p>
-<b>- Kevin M.</b>
-</div>
-
-</div>
-</div>
-</section>
-
-<!-- PICTORIAL -->
-<section class="py-16 bg-gray-900">
-<h2 class="text-3xl text-center text-purple-400 mb-6">Moments in Pictures</h2>
-
-<div class="slider max-w-4xl mx-auto" id="picSlider">
-<div class="slides">
-
-<img class="pic-img" src="ae20e426bda8ad11b4b6a228838398f9.jpg">
-<img class="pic-img" src="f5756180037371dca2fcfce7e586f72c.jpg">
-<img class="pic-img" src="bf461e22a944a4a7b8b15014c18f9f2d.jpg">
-<img class="pic-img" src="e3ae4b480fa38a991efab5aa7d30acfb.jpg">
-<img class="pic-img" src="0bed528e1429126944de866c5adc401e.jpg">
-<img class="pic-img" src="1a95ed1e21e8311585e82292635a419d.jpg">
-
-</div>
-</div>
-</section>
-
-<!-- CONTACT -->
-<section class="py-20 text-center bg-black">
-<h2 class="text-4xl text-purple-400 mb-6">Contact Us</h2>
-
-<p>📞 0707 445 068</p>
-<p>📩 wanderlustsafarisbyalvin@gmail.com</p>
-
-<a href="https://wa.me/254707445068"
-class="mt-6 inline-block bg-green-500 px-6 py-3 rounded-xl">
-Chat on WhatsApp
-</a>
-</section>
-
-<!-- FLOATING WHATSAPP -->
-<a href="https://wa.me/254707445068"
-class="fixed bottom-5 right-5 bg-green-500 p-4 rounded-full shadow-lg">
-💬
-</a>
-
-<footer class="text-center py-6 text-gray-400">
-Wanderlust Safaris by Alvin
-</footer>
-
-<script>
-// testimonials
-let t=0;
-const ts=document.querySelector('#testSlider .slides');
-const tc=ts.children.length;
-
-setInterval(()=>{
-t=(t+1)%tc;
-ts.style.transform=`translateX(-${t*100}%)`;
-},3000);
-
-// pictorial
-let p=0;
-const ps=document.querySelector('#picSlider .slides');
-const pc=ps.children.length;
-
-setInterval(()=>{
-p=(p+1)%pc;
-ps.style.transform=`translateX(-${p*100}%)`;
-},3000);
-</script>
-
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- ✅ GOOGLE SEARCH CONSOLE VERIFICATION -->
-<meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" />
+<meta name="google-site-verification" content="YOUR_GOOGLE_CODE_HERE" />
 
 <title>Wanderlust Safaris by Alvin</title>
 
@@ -258,7 +32,7 @@ body { background:#000; }
 <header class="fixed top-0 w-full bg-black/90 z-50">
 <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
 <img src="file_0000000003a471f589f68d29a759718f~2.png" class="h-14">
-<a href="https://wa.me/254707445068" class="bg-green-500 px-4 py-2 rounded-lg font-semibold">
+<a href="https://wa.me/254707445068" class="bg-green-500 px-4 py-2 rounded-lg">
 WhatsApp
 </a>
 </div>
@@ -282,18 +56,18 @@ Naivasha, Nakuru Kenya
 </p>
 
 <a href="https://wa.me/254707445068"
-class="mt-6 inline-block bg-green-500 px-6 py-3 rounded-xl font-semibold">
-Book Your Trip
+class="mt-6 inline-block bg-green-500 px-6 py-3 rounded-xl">
+Book Now
 </a>
 </div>
 </section>
 
 <!-- ABOUT -->
-<section class="py-16 px-6 text-center">
+<section class="py-16 text-center px-6">
 <h2 class="text-4xl text-yellow-400 mb-6">About Us</h2>
 
 <p class="max-w-3xl mx-auto text-gray-300">
-Wanderlust Safaris by Alvin is a premium travel company offering luxury safari experiences, hotel bookings, Airbnb stays, helicopter tours, cultural adventures, and corporate travel solutions across Kenya and East Africa.
+Wanderlust Safaris by Alvin offers luxury safari experiences, hotel bookings, Airbnb stays, helicopter tours, cultural trips, and corporate travel services across Kenya and East Africa.
 </p>
 </section>
 
@@ -307,23 +81,20 @@ Wanderlust Safaris by Alvin is a premium travel company offering luxury safari e
 <img src="ae20e426bda8ad11b4b6a228838398f9.jpg" class="h-48 w-full object-cover">
 <div class="p-4">
 <h3 class="text-yellow-400 font-bold">Maasai Mara Safari</h3>
-<p>Big Five Wildlife Experience</p>
 </div>
 </div>
 
 <div class="bg-black rounded-xl overflow-hidden">
 <img src="e3ae4b480fa38a991efab5aa7d30acfb.jpg" class="h-48 w-full object-cover">
 <div class="p-4">
-<h3 class="text-yellow-400 font-bold">Maasai Cultural Jump</h3>
-<p>Culture & Traditions</p>
+<h3 class="text-yellow-400 font-bold">Maasai Jump Culture</h3>
 </div>
 </div>
 
 <div class="bg-black rounded-xl overflow-hidden">
 <img src="f5756180037371dca2fcfce7e586f72c.jpg" class="h-48 w-full object-cover">
 <div class="p-4">
-<h3 class="text-yellow-400 font-bold">Land Cruiser Safaris</h3>
-<p>Luxury Off-road Tours</p>
+<h3 class="text-yellow-400 font-bold">Land Cruisers</h3>
 </div>
 </div>
 
@@ -331,7 +102,6 @@ Wanderlust Safaris by Alvin is a premium travel company offering luxury safari e
 <img src="bf461e22a944a4a7b8b15014c18f9f2d.jpg" class="h-48 w-full object-cover">
 <div class="p-4">
 <h3 class="text-yellow-400 font-bold">Coast Holidays</h3>
-<p>Diani Beach Experience</p>
 </div>
 </div>
 
@@ -339,7 +109,6 @@ Wanderlust Safaris by Alvin is a premium travel company offering luxury safari e
 <img src="1a95ed1e21e8311585e82292635a419d.jpg" class="h-48 w-full object-cover">
 <div class="p-4">
 <h3 class="text-yellow-400 font-bold">Naivasha & Nakuru</h3>
-<p>Lakes & Flamingos</p>
 </div>
 </div>
 
@@ -347,7 +116,6 @@ Wanderlust Safaris by Alvin is a premium travel company offering luxury safari e
 <img src="0bed528e1429126944de866c5adc401e.jpg" class="h-48 w-full object-cover">
 <div class="p-4">
 <h3 class="text-yellow-400 font-bold">Helicopter Tours</h3>
-<p>Luxury Aerial Experience</p>
 </div>
 </div>
 
@@ -361,23 +129,9 @@ Wanderlust Safaris by Alvin is a premium travel company offering luxury safari e
 <div class="slider max-w-2xl mx-auto" id="testSlider">
 <div class="slides">
 
-<div class="slide p-6 bg-gray-900 rounded-xl">
-⭐⭐⭐⭐⭐
-<p>“Amazing safari experience, very well organized.”</p>
-<b>- Brian K.</b>
-</div>
-
-<div class="slide p-6 bg-gray-900 rounded-xl">
-⭐⭐⭐⭐⭐
-<p>“Luxury service and unforgettable trips.”</p>
-<b>- Sharon A.</b>
-</div>
-
-<div class="slide p-6 bg-gray-900 rounded-xl">
-⭐⭐⭐⭐⭐
-<p>“Best travel agency in Kenya.”</p>
-<b>- Kevin M.</b>
-</div>
+<div class="slide p-6 bg-gray-900 rounded-xl">⭐⭐⭐⭐⭐ <p>“Amazing safari experience.”</p><b>- Brian K.</b></div>
+<div class="slide p-6 bg-gray-900 rounded-xl">⭐⭐⭐⭐⭐ <p>“Very professional service.”</p><b>- Sharon A.</b></div>
+<div class="slide p-6 bg-gray-900 rounded-xl">⭐⭐⭐⭐⭐ <p>“Best travel agency.”</p><b>- Kevin M.</b></div>
 
 </div>
 </div>
@@ -416,16 +170,13 @@ Chat on WhatsApp
 
 <!-- FLOATING BUTTON -->
 <a href="https://wa.me/254707445068"
-class="fixed bottom-5 right-5 bg-green-500 p-4 rounded-full shadow-lg">
-💬
-</a>
+class="fixed bottom-5 right-5 bg-green-500 p-4 rounded-full shadow-lg">💬</a>
 
 <footer class="text-center py-6 text-gray-400">
 Wanderlust Safaris by Alvin
 </footer>
 
 <script>
-// testimonials
 let t=0;
 const ts=document.querySelector('#testSlider .slides');
 const tc=ts.children.length;
@@ -435,7 +186,6 @@ t=(t+1)%tc;
 ts.style.transform=`translateX(-${t*100}%)`;
 },3000);
 
-// pictorial
 let p=0;
 const ps=document.querySelector('#picSlider .slides');
 const pc=ps.children.length;
@@ -447,4 +197,4 @@ ps.style.transform=`translateX(-${p*100}%)`;
 </script>
 
 </body>
-  </html>
+</html>
